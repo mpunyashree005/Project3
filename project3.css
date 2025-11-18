@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height:100vh;
+  background: linear-gradient(to bottom right , blue , purple) no-repeat;
+  margin:30px
+}
+h1{
+  margin-bottom: 20px;
+}
+
+.container{
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+button{
+ padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width:100%; 
+}
+
+textarea{
+  padding: 10px;
+  width: 94%;
+  height: 80px;
+  margin-bottom: 20px;
+  color: grey;
+}
+input{
+  height:20px;
+  border-radius: grey 2px;
+  padding:5px;
+  width:90%;
+}
+input ::placeholder{
+  padding: 30px;
+  color: grey;
+}
+
+select{
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
